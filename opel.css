@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #333;
+    box-shadow: 5px 5px 10px #ccc;
+    animation: rotate 5s linear infinite;
+}
+ul {
+    list-style:none;
+    padding: 0;
+    margin: 20px auto;
+    width: 60%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    font-size: larger;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+}
+li:last-child {
+    border-bottom: none;
+    
+}
